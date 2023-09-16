@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "powerengine"
+version = "1.0.0"
+authors = [
+  { name="Aarav Malani", email="aarav.malani@gmail.com" },
+]
+description = "A library which calculates signals and electricity."
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/AaravMalani/powerengine"
+"Bug Tracker" = "https://github.com/AaravMalani/powerengine/issues"
